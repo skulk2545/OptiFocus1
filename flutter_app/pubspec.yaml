@@ -1,0 +1,25 @@
+name: eye_measure_app
+description: Camera frontend for PD + spectacle measurement
+publish_to: "none"
+version: 1.0.0
+
+environment:
+  sdk: ">=2.18.0 <3.0.0"
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+  camera: ^0.10.0
+  http: ^0.13.6
+  path_provider: ^2.0.12
+  permission_handler: ^11.3.0
+  open_filex: ^4.3.2 
+  flutter_test:
+    sdk: flutter
+
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/logo.png
