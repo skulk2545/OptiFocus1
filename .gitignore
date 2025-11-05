@@ -9,6 +9,10 @@ build/
 .ios/
 .packages
 .dart_tool/
+*.apk
+*.aab
+*.so
+**/intermediates/
 
 # Node / general
 node_modules/
